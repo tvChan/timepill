@@ -1,0 +1,36 @@
+.login {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 150rpx;
+    box-sizing: border-box;
+    margin: 0 50rpx;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoImg {
+    width: 150rpx;
+    height: 150rpx;
+    margin: -50rpx auto;
+}
+.loginBtn {
+    color: #fff;
+    background: #32cd50;   
+    margin-top: 60rpx; 
+}
+.form {
+    margin-top: 80rpx;
+}
+.link {
+    font-size: 30rpx;
+    margin: 250rpx auto 0;
+}
+input{
+    margin-top: 40rpx;
+    padding: 10rpx 0;
+    border-bottom: 1rpx solid #ccc;
+}

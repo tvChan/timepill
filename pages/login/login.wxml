@@ -1,0 +1,17 @@
+<view class="login">
+    <view  bindtap="bindViewTap" class="logo">
+        <image class="logoImg" src="../../image/timepill.jpg"></image>
+    </view>
+    <view class="form">
+        <form bindsubmit="formSubmit" bindreset="formReset">
+            <view>
+                <input type="text" placeholder="邮箱" />
+            </view>
+            <view>
+                <input type="password" placeholder="密码"/>
+            </view>
+            <button class="loginBtn" bindtap="toLogin">登录</button>
+        </form>
+    </view>
+    <navigator class="link" hover-class="navigator-hover" url="navigate?title=navigate">没有账号？请注册</navigator>
+</view>
